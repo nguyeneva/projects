@@ -153,7 +153,7 @@ poke.summary(pokeframe, 'type')
 ## Incorrect Inputs for the <font size="4">poke.summary</font> Function
 If an incorrect parameter is passed into the poke.summary function a message will be printed in the R Console stating that the request was invalid.
 
-## Plotting with <font size="4">pokeWrapper</font>
+<!-- ## Plotting with <font size="4">pokeWrapper</font>
 The summary data can be plotted through the following steps:
 
 1. Create a `pokeframe`
@@ -170,4 +170,4 @@ mtext(side=3, line=0.5, "Count of Pokemon by Habitat", col="red", font=3, cex=2)
 mtext(side=1, line=4.5, "Habitat", col="blue", font=2,cex=1.2)
 mtext(side=2, line=2, "Count of Pokemon", col="blue", font=2, cex=1.2)
 ```
-![](habitat_summary_plot.png)
+![](habitat_summary_plot.png) -->
