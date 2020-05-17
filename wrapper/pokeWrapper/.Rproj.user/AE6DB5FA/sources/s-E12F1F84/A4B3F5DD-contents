@@ -1,0 +1,14 @@
+#' @title
+#'
+#' @description
+#'
+#' @param
+#'
+#' @return
+#'
+#' @examples
+#'
+#' @export
+add_six <- function(x) {
+  x+6
+}
