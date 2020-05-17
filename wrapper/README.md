@@ -1,10 +1,9 @@
 ## Pokémon API R Wrapper
 ##### Authors: Connor Lee and Eva Nguyen
 
-Travis [![Build Status](https://travis-ci.org/nguyeneva/data534_project.svg?branch=master)](https://travis-ci.org/nguyeneva/data534_project)
+<!-- Travis [![Build Status](https://travis-ci.org/nguyeneva/data534_project.svg?branch=master)](https://travis-ci.org/nguyeneva/data534_project)
 
-AppVeyor [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/nguyeneva/data534_project?branch=master&svg=true)](https://ci.appveyor.com/project/nguyeneva/data534_project)
-
+AppVeyor [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/nguyeneva/data534_project?branch=master&svg=true)](https://ci.appveyor.com/project/nguyeneva/data534_project) -->
 
 
 This package provides an R wrapper for the Pokémon API. It is specifically for getting, filtering, and summarizing the following information for each of the generation 1 Pokémon.
@@ -22,7 +21,7 @@ More information on the API documentation can be found at the official website: 
 Developer GitHub Version
 ```
 library(devtools)
-devtools::install_github("nguyeneva/data534_project/pokeWrapper")
+devtools::install_github("nguyeneva/projects/wrapper/pokeWrapper")
 ```
 **Attention**
 The `devtools` package will need to be installed.
