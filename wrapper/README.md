@@ -165,10 +165,6 @@ The summary data can be plotted through the following steps:
 ```
 pokeframe <- initializeDataFrame()
 habitatSummary <- poke.summary(pokeframe, 'habitat')
-barplot(habitatSummary$pokemonCount, names.arg=habitatSummary$habitat, las=2,col="#FFCC33")
-par(mar=c(7,3,3,0))
-mtext(side=3, line=0.5, "Count of Pokemon by Habitat", col="red", font=3, cex=2)
-mtext(side=1, line=4.5, "Habitat", col="blue", font=2,cex=1.2)
-mtext(side=2, line=2, "Count of Pokemon", col="blue", font=2, cex=1.2)
+ggplot(data=habitatSummary , aes(x=habitat, y=pokemonCount))+geom_bar(stat="identity")+theme(axis.text.x = element_text(angle = 80, hjust = 1))
 ```
 ![](habitat_summary_plot.png)
