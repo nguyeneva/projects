@@ -1,0 +1,21 @@
+install.packages("devtools")
+install.packages("roxygen2")
+devtools::create("myfirstpackage")
+
+#' This function loads a file as a matrix. It assumes that the first column
+#' contains the rownames and the subsequent columns are the sample identifiers.
+#' Any rows with duplicated row names will be dropped with the first one being
+#' kepted.
+#' @export
+testfunction <- function(x){
+  x*6
+}
+devtools::document()
+devtools::use_vignette("introduction")
+
+devtools::install()
+
+
+library(mypackage)
+myfun(3)
+myfun2(2)

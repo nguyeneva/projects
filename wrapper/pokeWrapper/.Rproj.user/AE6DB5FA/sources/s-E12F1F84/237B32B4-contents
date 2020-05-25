@@ -1,0 +1,12 @@
+library(devtools)
+library(dplyr)
+devtools::install_github("nguyeneva/playground_/pokeWrapper")
+library(pokeWrapper)
+pokeframe<-pokeframe
+poke.filter(c('dragonite','snorlax'))
+habitatSummary <- summary('habitat')
+typeSummary <- summary('type')
+typeof(habitatSummary)
+is.data.frame(habitatSummary)
+
+
